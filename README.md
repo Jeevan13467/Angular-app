@@ -38,4 +38,11 @@ sudo apt install nginx
 systemctl enable nginx
 systemctl run nginx
 ```
+Access to newly created Angular file 
 
+```
+cd <newly created angular project name>
+```
+save the html and css file in the angular project 
+
+Access the website: use public Ip address of the server
