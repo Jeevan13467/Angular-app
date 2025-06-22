@@ -35,6 +35,8 @@ ng new my-angular-app
 Install Nginx 
 ```
 sudo apt install nginx
+systemctl enable nginx
+systemctl run nginx
 ```
 
 
