@@ -6,8 +6,8 @@
 - Launch instances
 
 Pre-Requisites:
-- install nodejs 
-- install angular cli
+- Install nodejs 
+- Install angular cli
 
 ### Run the below commands to install nodejs  and Angular cli
 
@@ -21,5 +21,9 @@ check version
 ```
 node -v
 npm -v
+```
+Install Nodejs 
+```
+sudo npm install -g @angular/cli
 ```
 
