@@ -45,4 +45,6 @@ cd <newly created angular project name>
 ```
 save the html and css file in the angular project 
 
-Access the website: use public Ip address of the server
+Access the website: use public IP address of the server
+**
+Install Docker**
