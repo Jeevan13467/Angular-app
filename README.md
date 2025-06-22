@@ -71,5 +71,3 @@ docker images
 ```
 sudo snap install kubectl --classic
 ```
-
-```
