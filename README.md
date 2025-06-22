@@ -46,5 +46,30 @@ cd <newly created angular project name>
 save the html and css file in the angular project 
 
 Access the website: use public IP address of the server
-**
-Install Docker**
+
+
+## Install Docker
+
+```
+sudo apt install docker.io
+```
+create a Dockerfile according to the project 
+-Build Docker Image
+```
+ docker build -t <Angular project name>
+ ```
+Run the docker file using the port number 
+```
+docker run -d -p 8080:80 <Angular project name>
+```
+check the Docker Images is created or not 
+```
+docker images
+```
+
+### Install Kubectl for application deployment 
+```
+sudo snap install kubectl --classic
+```
+
+```
