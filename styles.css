@@ -1,0 +1,35 @@
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.projects {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.projects h2 {
+  color: #1d4ed8;
+}
+
+.project-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
