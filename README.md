@@ -39,4 +39,3 @@ systemctl enable nginx
 systemctl run nginx
 ```
 
-
