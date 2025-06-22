@@ -107,3 +107,4 @@ go to root user
 check the files with 'ls '
 you will get a file <your healthcheck file.html>
 you can download the file to view the server health.
+
