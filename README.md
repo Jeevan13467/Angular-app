@@ -27,3 +27,14 @@ Install Nodejs
 sudo npm install -g @angular/cli
 ```
 
+Create a New Angular Project
+```
+ng new my-angular-app
+```
+
+Install Nginx 
+```
+sudo apt install nginx
+```
+
+
