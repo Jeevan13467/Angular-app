@@ -71,3 +71,39 @@ docker images
 ```
 sudo snap install kubectl --classic
 ```
+
+Install minikube
+check minikube version 
+```
+minikube --version
+```
+create a minicube file and add syntax according to the application 
+
+```
+minikube start
+kubectl cluster-info
+```
+check the Public IP address of minikube pod 
+```
+minikube start
+kubectl cluster-info
+```
+access the application using the IP Address and the port that was mentioned in the minikube file 
+
+## Crontab and cronjob for system health checks
+
+Create a file to save the health check syntax and the file name should be <file name.sh>
+
+Run cronjob using 
+```
+crontab -e
+```
+select Nano edition --preferable 
+
+schedule the cronjob time for healthchecks 
+
+view healthcheck html file 
+go to root user 
+check the files with 'ls '
+you will get a file <your healthcheck file.html>
+you can download the file to view the server health.
