@@ -44,6 +44,12 @@ Access to newly created Angular file
 cd <newly created angular project name>
 ```
 save the html and css file in the angular project 
+```
+https://github.com/Jeevan13467/Angular-app/blob/main/index.html
+```
+```
+https://github.com/Jeevan13467/Angular-app/blob/main/styles.css
+```
 
 Access the website: use public IP address of the server
 
@@ -54,6 +60,9 @@ Access the website: use public IP address of the server
 sudo apt install docker.io
 ```
 create a Dockerfile according to the project 
+```
+https://github.com/Jeevan13467/Angular-app/blob/main/Dockerfile
+```
 -Build Docker Image
 ```
  docker build -t <Angular project name>
@@ -67,12 +76,22 @@ check the Docker Images is created or not
 docker images
 ```
 
-### Install Kubectl for application deployment 
+### Install Kubectl for application deployment and minikube
 ```
-sudo snap install kubectl --classic
+curl -LO "https://dl.k8s.io/release/$(curl -Ls https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+```
+To deploy the application we used  
+```
+https://github.com/Jeevan13467/Angular-app/blob/main/angular-web-deployment.yaml
 ```
 
-Install minikube
+To provide stable, load-balanced access to those Pods.
+```
+https://github.com/Jeevan13467/Angular-app/blob/main/angular-web-service.yaml
+```
+
 check minikube version 
 ```
 minikube --version
@@ -93,7 +112,9 @@ access the application using the IP Address and the port that was mentioned in t
 ## Crontab and cronjob for system health checks
 
 Create a file to save the health check syntax and the file name should be <file name.sh>
-
+```
+https://github.com/Jeevan13467/Angular-app/blob/main/healthcheck.sh
+```
 Run cronjob using 
 ```
 crontab -e
@@ -102,9 +123,9 @@ select Nano edition --preferable
 
 schedule the cronjob time for healthchecks 
 
-view healthcheck html file 
-go to root user 
-check the files with 'ls '
-you will get a file <your healthcheck file.html>
+How to view healthcheck html file 
+-go to root user 
+-check the files with 'ls '
+-you will get a file <your healthcheck file.html>
 you can download the file to view the server health.
 
